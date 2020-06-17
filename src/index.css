@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+:root {
+    --google-font-roboto-mono: "Roboto Mono", sans-serif;
+    --google-font-raleway: "Raleway", sans-serif;
+    --google-font-pt-sans: "PT Sans", sans-serif;
+    --google-font-lora: "Lora", sans-serif;
+    --google-font-roboto-condensed: "Roboto Condensed", sans-serif;
+    --google-font-source-sans-pro: "Source Sans Pro", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: #eee;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #111;
+    background: #333;
+    color: #fff;
+    /* box-shadow: 1px 1px 8px 2px #111; */
+    box-shadow: 0px 0px 6px 1px rgba(109, 103, 104, 0.88);
+}
+
+.toolbar div {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.toolbar div p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+.toolbar .preview div p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+#maximize-editor:hover {
+    color: turquoise;
+    cursor: pointer;
+}
+
+#maximize-preview:hover {
+    color: turquoise;
+    cursor: pointer;
+}
+
+.editor-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.editor-component textarea {
+    border: 1px solid #111;
+    width: 650px;
+    height: 350px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    resize: vertical;
+    font-family: var(--google-font-roboto-mono);
+    /* font-family: var(--google-font-source-sans-pro); */
+}
+
+.preview-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    border: 1px solid #111;
+    padding: 15px;
+    background: #fff;
+    font-family: var(--google-font-source-sans-pro);
+    margin-bottom: 40px;
+}
+
+.preview-component p {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.preview {
+    display: flex;
+    width: 850px;
+    font-size: 1rem;
+}
+
+pre {
+    background: #f7f7f7;
+    word-wrap: break-word;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+code {
+    background: #f7f7f7;
+    padding: 3px;
+}
+
+blockquote {
+    background: #eee;
+    border-left: 3px solid #111;
+}
+
+blockquote p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: #2981F9;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.large-window {
+    width: 95% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover-window {
+    height: 100vh !important;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none
+}
+
+
