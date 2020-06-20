@@ -2,7 +2,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-# React String Table
+# React Markdown Previewer
 I created this Github Flavored Markdown previewer for my second front-end libraries project on [@freeCodeCamp](https://freeCodeCamp.org). The markdown parsing to HTMl is handled by [Marked.js](https://marked.js.org/#/README.md#README.md).
 
 ## Built with
