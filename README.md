@@ -5,14 +5,18 @@
 # React Markdown Previewer
 I created this Github Flavored Markdown previewer for my second front-end libraries project on [@freeCodeCamp](https://freeCodeCamp.org). The markdown parsing to HTMl is handled by [Marked.js](https://marked.js.org/#/README.md#README.md).
 
-## Built with
-* React.js
+# Getting Started
+View the project live at this link: [React Markdown Previewer](https://codepen.io/spherical/full/PoZbopP) via CodePen.io
+
+# Built with
+* ReactJS
+* Marked.js
 * Cascading Style Sheets (CSS)
 
-## Authors
+# Authors
 
 * **Tanner Dolby** - *Initial work* - [@tannercd](https://github.com/tannercd)
 
-## License
+# License
 
 This project is free for public and open-source use.
