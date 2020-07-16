@@ -3,7 +3,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # React Markdown Previewer
-I created this Github Flavored Markdown previewer for my second front-end libraries project on [@freeCodeCamp](https://freeCodeCamp.org). The markdown parsing to HTMl is handled by [Marked.js](https://marked.js.org/#/README.md#README.md).
+I created this Github Flavored Markdown previewer for my second front-end libraries project on [@freeCodeCamp](https://freeCodeCamp.org). The markdown parsing to HTML is handled by [Marked.js](https://marked.js.org/#/README.md#README.md).
 
 # Getting Started
 View the project live [React Markdown Previewer](https://codepen.io/spherical/full/PoZbopP) via CodePen.
