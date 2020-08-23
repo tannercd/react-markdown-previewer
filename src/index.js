@@ -148,7 +148,7 @@ const placeHolderMarkdown =
 #### Smallest heading
 
 To create a hyperlink in GFM (Github Flavored Markdown): 
-[My portfolio]("https://tannerdolby.netlify.app")
+[My portfolio]("https://codepen.io/tannerdolby")
 
 To write single line code snippets, wrap your code in backticks like this:
 
