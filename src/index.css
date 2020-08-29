@@ -20,11 +20,21 @@
     box-sizing: border-box;
 }
 
+a {
+    color: #000 !important;
+    text-decoration: none;
+}
+
 html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
     background: #eee;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
 }
 
 .main {
@@ -170,4 +180,29 @@ a:hover {
 
 .hidden {
     display: none
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+footer .footer-links a i {
+    padding: 0 1rem 0 1rem;
+    color: #000;
+}
+
+footer .footer-links .social-link i {
+    padding: 0 1rem 0 1rem;
+    color: #000;
 }
