@@ -4,18 +4,18 @@
 
 I created this Github Flavored Markdown previewer for my second front-end libraries project on [@freeCodeCamp](https://freeCodeCamp.org). The markdown parsing to HTML is handled by [Marked.js](https://marked.js.org/#/README.md#README.md).
 
-# Getting Started
-View the project live [markdownpre.netlify.app](https://markdownpre.netlify.app/) via CodePen.
+## Live Demo
+* [markdownpre.netlify.app](https://markdownpre.netlify.app/)
 
-# Built with
+## Built with
 * ReactJS
 * Marked.js
 * Cascading Style Sheets (CSS)
 
-# Authors
+## Authors
 
 * **Tanner Dolby** - *Initial work* - [@tannercd](https://github.com/tannercd)
 
-# License
+## License
 
 This project is free for public and open-source use.
