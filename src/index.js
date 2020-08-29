@@ -131,7 +131,7 @@ const PreviewComponent = (props) => {
 
 const markedRenderer = new marked.Renderer();
 markedRenderer.link = (href, title, text) => {
-    return `<a href=${href} target="_blank">${text}</a>`;
+    return `<a href=${href} rel="noopener" target="_blank">${text}</a>`;
 };
 
 // Handling carriage returns as a line break <br>
