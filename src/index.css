@@ -160,10 +160,6 @@ blockquote p {
     padding-right: 10px;
 }
 
-a {
-    color: #2981F9;
-}
-
 a:hover {
     cursor: pointer;
 }
