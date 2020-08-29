@@ -112,6 +112,7 @@ const ToolBarComponent = (props) => {
 const EditorComponent = (props) => {
     return (
         <div className="editor-component">
+            <label for="editor" aria-label="editor-label"></label>
             <textarea type="text" id="editor" value={props.markdown} onChange={props.onChange}></textarea>
         </div>
     )
