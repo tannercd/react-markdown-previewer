@@ -31,6 +31,10 @@ h1 {
     text-align: center;
 }
 
+footer a {
+    color: #000;
+}
+
 .main {
     max-width: 900px;
     margin-left: auto;
