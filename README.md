@@ -14,7 +14,7 @@ I created this Github Flavored Markdown previewer for my second front-end librar
 
 ## Authors
 
-* **Tanner Dolby** - *Initial work* - [@tannercd](https://github.com/tannercd)
+* **Tanner Dolby** - *Initial work* - [@tannerdolby](https://github.com/tannerdolby)
 
 ## License
 
