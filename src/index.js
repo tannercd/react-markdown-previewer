@@ -65,7 +65,7 @@ class AppComponent extends React.Component {
     render() {
         return (
             <div className="main">
-                <h1>Markdown Previewer</h1>
+                <h1 className="title">Markdown Previewer</h1>
                 <ToolBarComponent header={assets.editorHeader} icon={assets.codeIcon} maximizeIcon={assets.arrowMaximizeIcon} onClick={this.handleEditorMax} maximizeEdit={this.state.editorMaximized} />
                 <EditorComponent onChange={this.handleChange} markdown={this.state.markdown} />
                 <ToolBarComponent header={assets.previewHeader} icon={assets.pageIcon} maximizeIcon={assets.arrowMaximizeIcon} onClick={this.handlePreviewMax} maximizePrev={this.state.previewMaximized} />

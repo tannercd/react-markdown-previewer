@@ -44,6 +44,12 @@ footer a {
     padding-right: 2rem;
 }
 
+.main .title {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 3em;
+}
+
 .toolbar {
     display: flex;
     justify-content: space-between;
