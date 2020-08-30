@@ -141,25 +141,25 @@ marked.setOptions({
 
 // Placeholder state markdown in editor
 const placeHolderMarkdown = 
-`# Hello there!
+`# Heading level 1
 
-## This is a sub heading...
+## Heading level 2
 
-### This is a bit smaller heading...
+### Heading level 3
 
-#### Smallest heading
+#### Heading level 4
 
-To create a hyperlink in GFM (Github Flavored Markdown): 
-[My portfolio]("https://codepen.io/tannerdolby")
+To create a hyperlink using Markdown - use [Link name](url): 
+[My portfolio](https://codepen.io/tannerdolby)
 
 To write single line code snippets, wrap your code in backticks like this:
 
 \`<p>Hello World</p>\`
 
+
 For multi-line code blocks wrap the statements in three opening and closing backticks.
 
 \`\`\`
-// Use the above opening three backticks to start a multi-line code statement
 
 let incrementValue = (val) => {
     return val += 1
@@ -172,7 +172,7 @@ To make text bold use **text** (wrap the text inside double asterisks)
 
 To make text italicized use _text_ (wrap the text inside single underscores)
 
-For both bold + italic use **_text_**
+For both bold & italics use **_text_**
 
 > Block Quotes start with the > symbol!
 
