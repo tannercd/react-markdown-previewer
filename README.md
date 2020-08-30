@@ -10,7 +10,7 @@ I created this Github Flavored Markdown previewer for my second front-end librar
 ## Built with
 * ReactJS
 * Marked.js
-* Cascading Style Sheets (CSS)
+* CSS
 
 ## Authors
 
