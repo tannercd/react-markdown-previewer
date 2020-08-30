@@ -141,7 +141,7 @@ marked.setOptions({
 
 // Placeholder state markdown in editor
 const placeHolderMarkdown = 
-`# Welcome to my Markdown Previewer built with React!
+`# Hello there!
 
 ## This is a sub heading...
 
